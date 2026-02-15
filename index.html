@@ -1,0 +1,168 @@
+<!-- el <!DOCTYPE> es una declaracion que representael tipo de documeto para que los navegadores 
+ muetren muetren la pagina web
+ -->
+<!--TODOS los documentos de HTML deben comenzar con una declaraion, solo debe de aparecer una vez
+en la parte superior de la pagina y tiene antes de cualquier etiqueta -->
+
+<!DOCTYPE html>
+<!--El atributo "lang nos va a marcar el idioma en el que se mortrara el contenido 
+ y a su vez nos va a proporcionar informacion adricional sobre los elementos html" -->
+<html lang="es-MX">
+<!--el elemento <head> contiene metainformacion sobre la pagina-->
+<head>
+    <!--la etiqueta <meta> sirve para brindar informacion sobre la pagina que no se ve en el diseño
+    pero es importante para que lo puedan interpretar los navegadores
+    El "Charset="UTF-8"" (Formato de tranformacion unicode de 8 bits), codificacacion  univerzal incluyendo
+    lenguajes vivos o muertos tambien incluye simbolos, emojis.-->
+    <meta charset="UTF-8">
+
+    <!--*el atributo "name="viewport"" controla el diseño en dispositivos.
+    *el atributo "content="width=device-widt" le indica al navegador que el ancho de la pagina debe 
+    ser igual al ancho de la pantalla del dispositivo donde se este visualizando
+    *El atributo "initial-scale=1.0"establece el nivel de zoom inicial
+    -->
+    <meta name="viewport" content="width=device-widt, initial-scale=1.0">
+
+    <title>Document</title>
+
+</head>
+
+<!-- la etiqueta "boby" e la parte visible de la pagina html-->
+<boby>
+
+<h1>Este es mi primer titulo 1</h1> <!--la etiqueta "h1" es pa titulos/encabezado
+ horden de importancia y van de h1 a h6, h1 es el titulo mas importantre  y h6 el menos importante -->
+<h2>Segundo titulo 2</h2>
+<h3>Tercer titulo 3</h3>
+<h4>Cuarto titulo 4</h4>
+<h5>Quinto titulo 5</h5>
+<h6>Sexto titulo 6</h6>
+<!-- -->
+<br>
+<!--la etiqueta "hr se usa para separar secciones con una linea de extremo a extremo"-->
+<hr>
+
+<br>
+
+<h2>parrafos</h2>
+
+<p> Este es el parrafo 1</p>
+<p>segundo parrafo</p>
+<P>
+   Este es el tercer parrafo, solo para informar que no alcance boleto 
+   para ver a los BTS, por que los revendedores no dejaron nis las migajas del los 
+   boletos y ahora los revenden hasta el triple del precio $
+</P>
+
+<h2>texto preformateado</h2>
+<pre>
+Mi gato prefiere Dormir en cajas de carton que en su cama 
+
+             Odio la limonada
+
+        Necesito Dormir más o tomar mas cafe
+     
+    necesito comprar un idratante de labios
+
+nnecesito comprar tenis nuevos    
+
+</pre>
+
+<br><hr><br>
+
+<h2>Enlaces</h2>
+
+<div> <!-- esta etiqueta "div" sirve para agrupar otros elementos con el fin etetico de la pagina-->
+
+    <a href="https://neal.fun/">El enlace se abrira sobre la misma pagina</a>
+
+    <!--Los enlaces de HTML se definen con la etiqueta "a" 
+El destino del enlace se define con el atributo "href"-->
+</div>
+
+<br>
+
+<!--El atributo "Target" define como se abrira el enlace-->
+<a href="https://littlealchemy2.com/" target="_blank">El enlace se abrira en una nueva pestaña</a>
+
+<h2>Correo</h2>
+<a href="ssanchez55@alumnos.uaq.mx" target="_blank">Mandame un correo</a>
+<h2>Llama al número</h2>
+<a href="tel:+4423366520">Llama para mas infoemación</a>
+<h2>WatsApp</h2>
+<a href="https://wa:me/4423366520" target="_blank">Enviar un mensaje</a>
+
+<br><br><br><hr><br>
+
+<h3>Inmagenes</h3>
+<!--Laetiqueta "img" define imagene 
+El origen del archivo con el atributo src
+los atributos width(ancho) y height(alto) pa definir dimenciones de la imagen-->
+
+  <img src="arboles_BTS.jpg" alt="Perú plantando arboles por concieto de BTS" width="450" height="350">
+
+<h3>Imagen 2</h3> <!-- atributo alt sirve pa poner texto alternativo cuando la imagen no se ve-->
+
+<figure>
+<img src="imagen1.jpg" alt="Gato dormido" width="250" height="350">
+ <figcaption>Gato Durmiendo en caja de carton</figcaption>
+ </figure>
+
+ <h3>Imagen 3</h3>
+ <figure>
+    <img src="album.jpg" alt="Album" width="250" height="250">
+    <a href="https://thedrivererashop.com/music/obsession-lp-black" target="_blank">
+        <figcaption>Haz clic aqui para comprarlo</figcaption>
+    </a>
+ </figure>
+
+ <h3>Imagen 4</h3>
+ <figure>
+    <a 
+    href="https://coreanismo.com/cerezos-flor-corea-del-sur"
+    target="_blank">
+
+
+<img
+    src="corea.jpg"
+    alt="cerezos en flor"
+    width="250"
+    height="250"
+>
+</a>
+<figcaption>Disfrutar de los cerezos en flor en Corea del Sur</figcaption>
+
+
+<h3>Lista numerada</h3>
+<ol>
+    <li>Cebolla</li>
+    <li>Pimienta</li>
+    <li>Papas</li>
+    <li>Limones</li>
+</ol>
+
+
+<br><br><br><hr><br>
+
+<h2>Botones</h2>
+
+<button onclick="alert('Hola como estas')"> 
+    clic para mostrar comentario</button>
+
+ <br><br>   
+<button onclick="window.location.href='https://www.google.com">
+    ir a google
+</button>
+
+<br><br>
+<button onclick="window.open('https://www.google.com', '_blank')">Ir a google</button>
+
+<br><br><br><hr><br>
+
+
+</body>
+</html>
+
+
+
+
